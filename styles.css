@@ -1,0 +1,83 @@
+:root{ 
+    --bg-skills: #DADDE2;
+    --bg-about: #396f91; 
+    --bg-projects: #8083FF;
+    
+}
+body{ 
+    margin: 0;
+}
+
+.dBI{ 
+    display: inline-block;
+}
+
+.home-img{ 
+    padding-top: 11rem;
+    padding-bottom: 15rem;
+    background: url("./images/software-developer-gaef570fcb_1920.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-attachment: scroll; */
+    background-size: cover;
+}  
+
+.divider{ 
+    background-color: white;
+    padding: 2px;
+    opacity: 1;
+} 
+
+.divider-skills{ 
+    background-color: var(--bg-about);
+    padding: 2px;
+    opacity: 1;
+}
+
+.btn-home{ 
+    font-size: 1rem;
+    font-weight: 700;
+} 
+
+.icon{ 
+    font-size: 4em;
+} 
+
+.icon-contact{ 
+    font-size: 2em;
+}
+
+.section-page{ 
+
+    padding: 8rem 0;
+
+}  
+
+#about{ 
+    background-color: var(--bg-about);
+} 
+
+#skills{ 
+    background-color: var(--bg-skills);
+} 
+
+#projects{ 
+    background-color: var(--bg-about);
+} 
+
+#contact{ 
+    background-color: var(--bg-skills);
+}
+
+.text-skils{ 
+    color: var(--bg-about);
+} 
+
+.text-carrousel{ 
+color: #00C6CF;
+} 
+
+
+
+
+
